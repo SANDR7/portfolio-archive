@@ -1,0 +1,19 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+video {
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    position: absolute;
+    bottom: 0;
+    left: 41%;
+    font-size: 80px;
+    color: #ff8d00;
+}

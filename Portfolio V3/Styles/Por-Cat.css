@@ -1,0 +1,30 @@
+#Por-Img-Dev {
+    position: absolute;
+    right: 0;
+    bottom:  0px;
+    height: auto;
+    max-width: 40%;
+}
+#BG-Vakn {
+    height: 150px;
+    width: 100%;
+    background-color: #f0f0f0;
+}
+#Vak-DnP {
+    position: absolute;
+    left: 325px;
+    top: 215px;
+}
+#Por-LogoSK {
+    position: absolute;
+    left: 350px;
+    top: 350px;
+    height: 200px;
+    text-align: center;
+
+    transition: .4s;
+}
+#Por-LogoSK:hover  {
+    transform: scale(1.1);
+    transition: .4s;
+}

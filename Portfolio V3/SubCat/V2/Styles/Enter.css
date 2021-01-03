@@ -1,0 +1,16 @@
+/*Voor Desktop*/
+
+body {
+	overflow: hidden;
+}
+
+video {
+	background-size: cover;
+	transform:scale(1.05);
+	top: 10%;
+	opacity: 1;
+	width:100%;
+    position:absolute;
+	justify-content: center;
+	background-color: white;
+}

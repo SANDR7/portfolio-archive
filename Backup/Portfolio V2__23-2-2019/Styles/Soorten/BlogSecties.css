@@ -1,0 +1,18 @@
+.BlogSec1 {
+}
+.BlogSec2 {
+	margin-left: 150px;
+	border: 5px solid #fff;
+	float: left;
+	width: 220px;
+	text-align: center;
+	
+}
+.skills {
+	padding-top: 15px;
+}
+a {
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+}

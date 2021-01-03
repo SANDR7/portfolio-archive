@@ -1,0 +1,76 @@
+/*Logo*/
+.Intro-Logo {
+	margin: 130px 0px 0px 600px;
+	height: 20px;
+	transform: scale(0.7);
+	opacity: .9;
+	background-size: cover;
+}
+#Introtext {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 50px;
+	font-weight: 600;
+	margin: 0px 0 0 200px; /*links aanpassen txt*/
+	
+}
+.Introtext-Info {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	font-weight: 400;
+	margin: 10px 0 0 200px; /*links aanpassen txt*/
+	text-align: left;
+	color: #929292;
+}
+.lijn1 {
+	height: 7.5px;
+	width: 450px;
+	background-color: #0E0E0E;
+	margin-left: 200px; /*links aanpassen txt*/
+	top: 500px;
+}
+
+.Social{
+	float: left;
+	margin: 200px 0 0px 240px;
+}
+
+.fa-instagram {
+	color: black;
+	transition: .3s;
+	transform: scale(7);
+	margin-right: 125px;
+	
+}
+.fa-instagram:hover {
+	color: #d6249f;
+	margin: 3px 3px 0 0;
+	transform: scale(6.4);
+	transition: .3s;
+	margin-right: 125px;
+}
+
+.fa-twitter {
+	color: black;
+	padding: 10px;
+	transform: scale(7);
+	transition: .3s;
+}
+.fa-twitter:hover {
+	color: #00aced;
+	transform: scale(6.4);
+	transition: .3s;
+}
+
+.fa-at {
+	color: black;
+	transform: scale(7);
+	transition: .3s;
+	margin-left: 125px;
+}
+.fa-at:hover {
+	color: #D44638;
+	transform: scale(6.4);
+	transition: .3s;
+	margin-left: 125px;
+}
+

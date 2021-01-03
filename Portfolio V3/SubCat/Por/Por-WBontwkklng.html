@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio V3</title>
+<!-- css -->
+   <link rel="icon" href="/Bijlagen/Vector-Pictures/Favicon.png" type="image/png">
+           <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="/Styles/navigation.css">
+        <link rel="stylesheet" type="text/css" href="/Styles/Menu-Text-Style.css">
+        <link rel="stylesheet" type="text/css" href="/Styles/Footer.css">
+        <link rel="stylesheet" type="text/css" href="/Styles/Effect-Hover.css">
+        <link rel="stylesheet" type="text/css" href="/Styles/Portfolio.css">
+
+
+
+
+<!-- fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Rubik:700" rel="stylesheet">
+
+</head>
+            <style type="text/css">img[alt="www.000webhost.com"]{display:none;}</style>
+<body>
+<div id="Container">
+<div id="Main">
+<!-- BurgerMenu -->
+
+    <!-- misschien een div -->
+    <img id="Nav-Onder-Effect" onmouseover="MenuOpen()" onmouseout="MenuDicht()" src="/Bijlagen/SVG/Nav-BG-Onder.svg" alt="Nav-Onder-Effect">  
+        <img class="Nav-BG-Boven" src="/Bijlagen/SVG/Nav-BG-Boven.svg" alt="Nav-BG-Boven">  
+        
+        <img id="BG-Menu" onmouseover="MenuOpen()" onmouseout="MenuDicht()" src="/Bijlagen/SVG/Nav-BG-Open.svg" alt="BG-Menu">
+        <img id="Nav-Onder-Effect2" onmouseover="MenuOpen()" onmouseout="MenuDicht()" src="/Bijlagen/SVG/Nav-BG-Hover.svg" alt="Nav-BG-Onder">
+
+        <img id="Logo" onmouseover="MenuOpen()" onmouseout="MenuDicht()" onclick="RefreshPag()" src="/Bijlagen/Vector-Pictures/Logo Icon Nav Wit.png" alt="Logo-Wit">
+<!-- text onder het logo -->
+            <h1 id="Menu-TextP" onmouseover="MenuOpen()" onmouseout="MenuDicht()" onclick="Link_Por()" >Portfolio</h1>
+
+<!-- Geopend menu -->
+        <div id="Dropdown" onmouseover="MenuOpen()" onmouseout="MenuDicht()">
+            <ul>
+                <li id="Hom"><a href="/index.html">Home</a></li>
+                <li id="Opl"><a href="/SubCat/Opleidingen.html">Opleidingen</a></li>
+                <li id="Toe"><a href="/SubCat/Toekomst.html">Toekomst</a></li>
+            </ul>
+        </div>
+<!-- Topnav -->
+    <div id="Top-Nav-BG">
+        <p id="Por-Cat">
+            <p id="Por-Cat-Schl">Web Ontwikkeling  |</p>
+
+       </p>
+    </div>
+    <a style="margin-left:260px;" href="/SubCat/V1/Portfolio.html" target="blank">mij eerste website</a>
+    <a style="margin-left:260px;" href="/SubCat/V2/index.html" target="blank">mij tweede website</a>
+
+</div>
+</div> 
+<!-- Footer -->
+    <footer id="Footer-BG">
+            <h1 id="Ftr-Text" onclick="Link()">Over mij</h1>
+            <h3 id="Ftr-Text2">Mijn naam is Sander van Ast</h3>
+            <h3 id="Ftr-CopyR">Copyright © 2019 |  Art with Ast</h3>
+
+<!-- Sociale media icons -->
+        <a href="https://www.instagram.com/insta_met_ast/" target="_blank">	
+            <i class="fab fa-instagram"></i>
+        </a>
+            <a href="https://twitter.com/@tweets_van_Ast" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+        <a href="mailto:artmetast@gmail.com">
+            <i class="fas fa-at"></i>
+        </a>
+    </footer>
+    
+<!-- JS -->
+<div class="JS ">
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <script src="/JavaScript/Burger-Menu.js"></script>
+    <script src="/JavaScript/Links.js"></script>
+    <script src="/JavaScript/Tijd-Home.js"></script>
+</div>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="202.657" height="216.62" viewBox="0 0 202.657 216.62">
+  <g id="Back-Btn" transform="translate(-1717.843 -319)">
+    <g id="Back-Btn-2" data-name="Back-Btn" transform="translate(280.343 24)">
+      <path id="Nav-BG-Hover" d="M-424.343,245V374.354L-627,322.631V245Z" transform="translate(2064.5 137.266)" fill="#c95900"/>
+      <text id="Back" transform="translate(1463.657 448)" fill="#fff" font-size="65" font-family="Tahoma-Bold, Tahoma" font-weight="700"><tspan x="0" y="0">Back</tspan></text>
+    </g>
+    <rect id="Rectangle_5" data-name="Rectangle 5" width="202" height="88" transform="translate(1718 319)" fill="#c95900"/>
+  </g>
+</svg>

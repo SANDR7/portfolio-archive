@@ -1,0 +1,111 @@
+/* Footer background */
+#Footer-BG {
+    background-color: #dfdfdf;
+    position: relative;
+
+    height: 350px;
+    width: 100%;
+    margin-bottom: 0;
+    margin-top: -100px;
+    bottom: 0;
+
+}
+
+/* Footer Text */
+#Ftr-Text {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    
+    color: #787878;
+    font-size: 60px;
+    transition: 1s;
+    float: left;
+
+}
+#Ftr-Text:hover {
+    transform: scale(.97);
+    color: #358f00;
+    transition: 1s;
+    cursor: pointer;
+}
+#Ftr-Text2 {
+    position: absolute;
+
+    bottom: 30px;
+
+    left: 20px;
+    font-size: 2em;
+
+    color: #a9a9a9;
+}
+
+#Ftr-CopyR {
+    font-size: 1em;
+    position: absolute;
+    bottom: 5px;
+    color: #a9a9a9;
+    left: 20px;
+}
+/* Sociale media styles */
+
+.fa-instagram {
+    padding: 20px;    
+    position: absolute;
+    bottom: 15px;
+    right: 325px;
+
+    color: white;
+
+    font-size: 100px;
+    transition: .3s;
+    border-radius: 10%;
+
+}
+.fa-instagram:hover {
+    background-color: #d6249f;
+    transform: scale(.9);
+    transition: .3s;
+    border-radius: 20%;
+
+}
+.fa-twitter {
+    padding: 20px;
+    position: absolute;
+    bottom: 15px;
+    right: 170px;
+
+    color: white;
+
+    font-size: 100px;
+    border-radius: 10%;
+    transition: .3s;
+}
+.fa-twitter:hover {
+    background-color: #1da1f2;
+    transform: scale(.9);
+    transition: .3s;
+    border-radius: 20%;
+
+
+}
+.fa-at {
+    padding: 20px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+
+    color: white;
+
+    font-size: 100px;
+    transition: .3s;
+    border-radius: 10%;
+}
+
+.fa-at:hover {
+    background-color: #D44638;
+    transform: scale(.9);
+    transition: .3s;
+    border-radius: 20%;
+
+}

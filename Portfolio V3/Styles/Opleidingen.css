@@ -1,0 +1,70 @@
+/* top navigatie categoriën */
+/* Inhoud opleidingen */
+#Header-Text {
+    position: absolute;
+    top: 250px;
+    left: 360px;
+    font-size: 30px;
+}
+#Qoute-Text {
+    position: absolute;
+    left: 360px;
+    top: 300px;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+#Moti-Img {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    
+    height: auto;
+    max-width: 50%;
+}
+
+#Opl-Cat-RGO {
+    position: absolute;
+    top: 45px;
+    left: 290px;
+
+    color: white;
+    font-size: 50px;
+    transition: .4s;
+}
+#Opl-Cat-RGO:hover {
+    color: #c5c5c5;
+    transition: .4s;
+    cursor: pointer;
+}
+
+#Opl-Cat-GLR {
+    position: absolute;
+    top: 45px;
+    left: 1100px;
+
+    color: white;
+    font-size: 50px;
+    transition: .4s;
+}
+#Opl-Cat-GLR:hover {
+    color: #c5c5c5;
+    transition: .4s;
+    cursor: pointer;
+}
+/* Style Cat-RGO */
+#Logo-RGO {
+    position: fixed;
+    top: 100px;
+    right: 50px;
+    height: 500px;
+    transition: .3s;
+}
+
+#Logo-GLR {
+    position: fixed;
+    top: 170px;
+    right: 50px;
+    height: 500px;
+    transition: .3s;
+}

@@ -1,0 +1,53 @@
+/* Inhoud + video */
+#IntroHeader {
+    font-family: 'Rubik', sans-serif;
+    
+    position: absolute;
+    float: left;
+
+    top: 90px;
+    left: 360px;
+
+    font-size: 72px;
+}
+
+#accent-Intro {
+    position: absolute;
+
+    top: 180px;
+
+    left: 365px;
+
+    background-color: #1b1b1b;
+    width: 530px;
+    height: 10px;
+
+    border-radius: 100px;
+}
+
+#IntroText {
+    position: absolute;
+    top: 205px;
+    left: 365px;
+    margin-bottom: 50px;
+
+    color: #787878;
+
+    font-size: 26px;
+}
+#bg-Vid {
+    position: absolute;
+
+    float: right;
+
+    height: auto;
+    max-width: 75%;
+
+    bottom: 50px;
+    right: -120px;
+
+    opacity: 1;
+
+    transform: scale(1.2);
+}
+

@@ -1,0 +1,110 @@
+﻿/* algemeene styles */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+
+    overflow-x: hidden;
+
+    font-family: 'Montserrat', sans-serif;
+
+    background-color: #fcfcfc;
+    height: 100%;
+    cursor: default;
+}
+#Container  {
+    min-height: 130%;
+    background-color: #fcfcfc;
+}
+#Main {
+    overflow: auto;
+}
+/* Top navigatie */
+#Top-Nav-BG {
+    background-color: #C95900;
+    height: 150px;
+    max-width: 100%;
+    margin-left: 250px;
+}
+/* BurgerMenu */
+#Logo {
+    position: fixed;
+    display: block;
+
+    top: 30px;
+    cursor: pointer;
+    left: 82px; 
+}
+#BG-Menu {
+    margin-top: -375px;
+
+    position: fixed;
+    display: block;
+
+    top: 0;
+
+    transition: .4s;
+}
+
+
+.Nav-BG-Boven {
+    position: fixed;
+    display: block;
+    margin-top: 0;
+    left: -5px;
+}
+#Nav-Onder-Effect {
+    margin-top: 0px;
+    margin-left: -210px;
+
+    position: fixed;
+
+    bottom: 0;
+
+    transition: .35s;
+}
+#Nav-Onder-Effect2 {
+    top: 1200px;
+    margin-left: -5px;
+
+    position: fixed;
+
+    bottom: -500px;
+
+    transition: .4s;
+}
+
+#Dropdown{
+    position: fixed;
+    opacity: 0;
+
+    margin-top: 250px;
+    left: 15px;
+
+    transition: .4s;
+}
+li {
+    margin-bottom: 45px;
+    list-style-type: none;
+    opacity: 1;
+
+    transition: .4s;
+}
+ul li a {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    font-weight: 400;
+
+    transition: .4s;
+}
+ul li a:hover {
+    font-size: 35px;
+}

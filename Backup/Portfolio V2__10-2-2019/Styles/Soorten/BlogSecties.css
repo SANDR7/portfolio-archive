@@ -1,0 +1,16 @@
+.BlogSec1 {
+	position: absolute;
+	background-color: #EDEDED;
+	margin: 50px 150px 0;
+	padding: 15px;
+	width: 70vw;
+	height: 30px;
+}
+.BlogSec2 {
+	position: absolute;
+	background-color: #EDEDED;
+	margin: 125px 150px 0;
+	padding: 15px;
+	width: 70vw;
+	height: 30px;
+}

@@ -1,0 +1,132 @@
+.BG_Nav {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    height: 600px;
+    width: 120px;
+    background-color: #358F00;
+}
+/* Detail hier is het driehoekje aan de onderkant */
+.BG_Detail {
+    position: absolute;
+    
+    border-color: white #358F00;
+    border-style: solid;
+    border-width: 0px 0px 40px 120px;
+    top: 600px;
+}
+/* Sub 1 is opleidingen */
+/* Sub 2 is Toekomst */
+/* Sub 3 is Portfolio */
+
+/* Sub 1 is opleidingen */
+.BG_Sub1 {
+    position: absolute;
+    top: 60px;
+    height: 130px;
+    width: 130px;
+    /* width: 130px; */
+    background-color: #286600;
+    transition: .3s;
+}
+#Sub_Title1 {
+    position: absolute;
+    top: 15px;
+    left: 0px;
+    color: white;
+    font-size: 40px;
+    transition: .3s;
+    opacity: 0;
+}
+.BG_Sub1:hover {
+    position: absolute;
+    top: 60px;
+    height: 130px;
+    width: 400px;
+    background-color: #286600;
+    transition: .3s;
+
+}
+.fa-graduation-cap {
+    position: absolute;
+    top: 25px;
+    left: 12px;
+    color: white;
+    font-size: 85px;
+    text-align: center;
+    transition: .3s;
+
+}
+
+/* Sub 2 is Toekomst */
+.BG_Sub2 {
+    position: absolute;
+    top: 210px;
+    height: 130px;
+    width: 130px;
+    background-color: #286600;
+    transition: .3s;
+}
+#Sub_Title2 {
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    color: white;
+    font-size: 40px;
+    transition: .3s;
+    opacity: 0;
+}
+.BG_Sub2:hover {
+    position: absolute;
+    top: 210px;
+    height: 130px;
+    width: 400px;
+    background-color: #286600;
+    transition: .3s;
+}
+.fa-road {
+    position: absolute;
+    top: 22.5px;
+    left: 17.5px;
+    color: white;
+    font-size: 85px;
+    text-align: center;
+    transition: .3s;
+
+}
+/* Sub 3 is Portfolio */
+.BG_Sub3 {
+    position: absolute;
+    top: 360px;
+    height: 130px;
+    width: 130px;
+    background-color: #286600;
+    transition: .3s;
+}
+#Sub_Title3 {
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    color: white;
+    font-size: 40px;
+    transition: .3s;
+    opacity: 0;
+}
+.BG_Sub3:hover {
+    position: absolute;
+    top: 360px;
+    height: 130px;
+    width: 400px;
+    background-color: #286600;
+    transition: .3s;
+}
+.fa-portrait {
+    position: absolute;
+    top: 22.2px;
+    left: 33px;
+    color: white;
+    font-size: 85px;
+    text-align: center;
+    transition: .3s;
+
+}

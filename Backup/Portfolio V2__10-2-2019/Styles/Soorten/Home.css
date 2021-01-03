@@ -1,0 +1,38 @@
+/*Logo*/
+.Intro-Logo {
+	margin-top: -300px;
+	float: right;
+	transform: scale(0.7);
+	opacity: .9;
+}
+#Introtext {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 50px;
+	font-weight: 600;
+	margin: 100px 0 0 200px; /*links aanpassen txt*/
+	
+}
+.Introtext-Info {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	font-weight: 400;
+	margin: 10px 0 0 200px; /*links aanpassen txt*/
+	text-align: left;
+	color: #929292;
+}
+.lijn1 {
+	height: 7.5px;
+	width: 450px;
+	background-color: #0E0E0E;
+	margin-left: 200px; /*links aanpassen txt*/
+	top: 500px;
+}
+
+@media screen and (max-width: 1770px) {
+	.Intro-Logo {
+		margin-top: -170px;
+		transform: scale(0.4);
+	margin-right: -280px;
+		
+	}
+}

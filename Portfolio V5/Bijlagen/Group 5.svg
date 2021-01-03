@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="428" height="428" viewBox="0 0 428 428">
+  <defs>
+    <filter id="Ellipse_1" x="0" y="0" width="428" height="428" filterUnits="userSpaceOnUse">
+      <feOffset dx="15" dy="35" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 86 160">
+      <image width="86" height="160" xlink:href="../../Portfolio%20V3/Bijlagen/Vector-Pictures/Logo%20Icon%20Nav%20Wit.png"/>
+    </pattern>
+  </defs>
+  <g id="Group_5" data-name="Group 5" transform="translate(10 -10)">
+    <g id="Group_4" data-name="Group 4">
+      <g transform="matrix(1, 0, 0, 1, -10, 10)" filter="url(#Ellipse_1)">
+        <circle id="Ellipse_1-2" data-name="Ellipse 1" cx="139" cy="139" r="139" transform="translate(60 40)" fill="#54e300"/>
+      </g>
+    </g>
+    <rect id="Logo_Icon_Nav_Wit" data-name="Logo Icon Nav Wit" width="90" height="168" transform="translate(144 105)" fill="url(#pattern)"/>
+  </g>
+</svg>
