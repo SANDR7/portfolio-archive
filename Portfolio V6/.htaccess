@@ -1,0 +1,28 @@
+##------Forceer HTTPS verbinding geheel domein------##
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
+
+ErrorDocument 404 /404.html
+
+##------haald extension van html en php er uit-------##
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{REQUEST_FILENAME}\.html -f
+
+##Here we show the page that has the .html extension
+RewriteRule ^(.*)$ $1.html [NC,L]
+##
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{REQUEST_FILENAME}\.php -f
+
+##Here we show the page that has the .html extension
+RewriteRule ^(.*)$ $1.php [NC,L]
+##
+
+# Add www to any URLs that do not have them:
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
