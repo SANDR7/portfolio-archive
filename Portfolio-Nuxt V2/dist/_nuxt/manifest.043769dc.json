@@ -1,0 +1,90 @@
+{
+  "name": "Sander van Ast",
+  "short_name": "SMA",
+  "description": "Developing the web by Creating for You.",
+  "icons": [
+    {
+      "src": "/_nuxt/icons/icon_64x64.b177e5.png",
+      "sizes": "64x64",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/_nuxt/icons/icon_120x120.b177e5.png",
+      "sizes": "120x120",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/_nuxt/icons/icon_144x144.b177e5.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/_nuxt/icons/icon_152x152.b177e5.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/_nuxt/icons/icon_192x192.b177e5.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/_nuxt/icons/icon_384x384.b177e5.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/_nuxt/icons/icon_512x512.b177e5.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F9F9F9",
+  "theme_color": "#ef794d",
+  "lang": "en",
+  "shortcuts": [
+    {
+      "name": "Contact Page",
+      "short_name": "Contact",
+      "descirption": "View my contact information",
+      "url": "/Contact",
+      "icon": [
+        {
+          "src": "/icon.png"
+        }
+      ]
+    },
+    {
+      "name": "About Page",
+      "short_name": "About",
+      "descirption": "View my information about myself",
+      "url": "/About",
+      "icon": [
+        {
+          "src": "/icon.png"
+        }
+      ]
+    },
+    {
+      "name": "Projects Page",
+      "short_name": "Projects",
+      "descirption": "View my projects",
+      "url": "/Projects",
+      "icon": [
+        {
+          "src": "/icon.png"
+        }
+      ]
+    }
+  ],
+  "ogImage": "https://www.sandervanast.com/hi-icon.png"
+}
